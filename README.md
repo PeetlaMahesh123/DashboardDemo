@@ -5,7 +5,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
 <img width="1923" height="923" alt="image" src="https://github.com/user-attachments/assets/e78f41ca-56fd-4108-9dd2-ee370b044ef6" />
 
 ---
-
+Currently, two official plugins are available:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
 ## React Compiler
